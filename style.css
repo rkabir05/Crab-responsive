@@ -1,0 +1,576 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header-background {
+    width: auto;
+    margin: auto;
+    height: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    align-items: center !important;
+    margin-bottom: 30px;
+}
+
+.header-main {
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center !important;
+
+}
+
+.header-main-logo {
+    width: 30%;
+}
+
+.header-dropdown {
+    width: 65%;
+}
+
+
+.header-dropdown>nav>ul>li {
+    position: relative;
+    min-width: 10px;
+    padding: 12px 2px;
+    z-index: 999;
+}
+
+.header-dropdown>nav>ul>li>ul {
+    position: absolute;
+}
+
+
+.header-dropdown>nav>ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+
+.header-dropdown>nav>ul>li>a {
+    text-decoration: none;
+    color: black;
+    transition: all 0.5s;
+    font-weight: bold;
+}
+
+ul.sub-menu>li>a {
+    text-decoration: none;
+    color: black;
+}
+
+ul.sub-menu {
+    list-style: none;
+    display: none;
+    background: white;
+}
+
+ul.sub-menu li {
+    width: max-content;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: max-content;
+
+}
+
+.header-dropdown>nav>ul>li:hover .sub-menu {
+    list-style: none;
+    width: max-content;
+    padding: 10px;
+    min-width: 141px;
+    display: block;
+}
+
+
+.header-dropdown>nav>ul>li:hover {
+    border-bottom: 2px solid green;
+}
+
+
+
+.crab-three-box {
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid;
+    margin-top: 20px;
+}
+
+.crab-main {
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
+input[type="text"] {
+    margin-top: 15px;
+    margin-bottom: 30px;
+    padding: 5px;
+    border-radius: 30px;
+    width: 311px;
+    border: none;
+}
+
+button.subcrib-bottom {
+    margin-top: 15px;
+    margin-bottom: 30px;
+    width: 100px;
+    height: 25px;
+    border-radius: 40px;
+    border: 1px solid;
+    cursor: pointer;
+}
+
+button.subcrib-bottom:hover {
+    background: green;
+    font-weight: bold;
+    color: wheat;
+}
+
+input[type="text"]:hover {
+    border: 3px solid skyblue;
+}
+
+.footer-main {
+    width: 1200px;
+    margin: auto;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+
+.footer-main>nav>ul>li {
+    list-style: none;
+
+}
+
+.footer>nav>ul {
+    list-style: none;
+
+}
+
+.footer>nav>ul>li>a {
+    text-decoration: none;
+    color: black;
+}
+
+a.footer-text {
+    font-weight: bold;
+}
+
+.footer>nav>ul>li>a:hover {
+    border-bottom: 1px solid black;
+
+}
+
+.footer-2nd-box {
+    width: 1200px;
+    height: auto;
+    margin: auto;
+}
+
+.design {
+    height: auto;
+    margin: auto;
+    width: 1200px;
+    text-align: center;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.design h6 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.footer-socialmedia>nav>ul {
+    list-style: none;
+    display: flex;
+}
+
+.footer-socialmedia>nav>ul>li {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.footer-socialmedia>nav>ul>li>a {
+    color: black;
+}
+
+.footer-2nd-box {
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.slider-box {
+    margin: auto;
+    height: auto;
+    width: auto;
+}
+
+.slider-box img {
+    width: 100%;
+}
+
+.notice-message {
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.notice-box {
+    width: 100%;
+    padding: 10px;
+
+}
+
+.message-box {
+    width: 30%;
+    border: 1px solid;
+    border-radius: 10px;
+    height: 305px;
+}
+
+.notice-part {
+    width: 100%;
+}
+
+.notice-img {
+    width: 25%;
+    overflow: hidden;
+}
+
+.notice-img img {
+    max-width: 100%;
+}
+
+
+notice-headline-date {
+    width: 70%;
+}
+
+.notice-part {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 21px;
+}
+
+.message-part {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 5px;
+}
+
+notice-headline-date a {
+    text-decoration: none;
+    color: black;
+}
+
+.notice-img img:hover {
+    transform: scale(1.5);
+}
+
+
+.notice-main {
+    border: 1px solid;
+    border-radius: 20px;
+    width: 68%;
+}
+
+.notice {
+    font-size: 15px;
+    border-bottom: 1px solid;
+    padding: 10px;
+}
+
+.message-secratery,
+.message-persident {
+    width: 48%;
+    overflow: hidden;
+}
+
+.message-secratery img,
+.message-persident img {
+    max-width: 100%;
+}
+
+.message-secratery a,
+.message-persident a {
+    text-decoration: none;
+    color: black;
+    margin-top: 10px;
+    text-align: center;
+}
+
+
+.message {
+    font-size: 15px;
+    border-bottom: 1px solid;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.message-secratery img:hover,
+.message-persident img:hover {
+    transform: scale(1.5);
+}
+
+.news-and-events-main {
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    border: 1px solid;
+    border-radius: 10px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.news-and-events-text {
+    padding: 10px;
+    border-bottom: 1px solid;
+}
+
+.news-text {
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.news-part {
+    width: 31%;
+}
+
+.news-part-img img {
+    max-width: 100%;
+    margin-bottom: 15px;
+}
+
+
+
+.medis-and-institute-img,
+.news-part-img {
+    overflow: hidden;
+}
+
+.medis-and-institute-img img:hover,
+.news-part-img img:hover {
+    transform: scale(1.5);
+}
+
+.news-part a {
+    text-decoration: none;
+    color: black;
+    margin-top: 10px;
+}
+
+.news-part h2 {
+    margin-bottom: 10px;
+}
+
+.media-and-institute-box {
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    border: 1px solid;
+    border-radius: 10px;
+}
+
+.medis-and-institute-text {
+    font-size: 20px;
+    border-bottom: 1px solid;
+    padding: 10px;
+
+}
+
+.medis-and-institute-img-box {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.medis-and-institute-img img {
+    max-width: 100%;
+}
+
+.medis-and-institute-img {
+    width: 22%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.footer>nav>ul>li {
+    margin-top: 5px;
+}
+
+.footer>nav>ul>li {
+    margin-top: 5px;
+}
+
+.footer-address h3 {
+    margin-bottom: 10px;
+}
+
+.news-and-events-text h2 {
+    font-size: 30px;
+}
+
+.background-box {
+    width: auto;
+    margin: auto;
+    height: auto;
+    background: url(images/breadcrumb-bg-image.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+
+.background-text {
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    text-align: center;
+    color: wheat;
+    font-size: 25px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.home-btn {
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    text-align: center;
+    color: wheat;
+    font-size: 25px;
+    padding-top: 20px;
+    margin-left: 55px;
+}
+
+.home-btn a {
+    text-decoration: none;
+    border: 1px solid;
+    border-radius: 13px;
+    padding: 5px 12px;
+    background: red;
+    font-weight: bold;
+    color: wheat;
+    font-size: 15px;
+    margin-top: -15px;
+    position: absolute;
+}
+
+.glance-logo {
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.header-background,
+.footer-background {
+    background: #f3f2f0;
+}
+
+
+
+.footer-socialmedia,
+.glance-text {
+    width: 1200px;
+    height: auto;
+    margin: auto;
+}
+
+
+.glance-text p,
+.glance-text h2 {
+    margin-bottom: 25px;
+}
+
+.glance-text p {
+    margin-bottom: 15px;
+}
+
+h2 {}
+
+.constitution {
+    width: 1200px;
+    margin: auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.constitution-bangla {
+    width: 1200px;
+    margin: auto;
+    height: auto;
+}
+
+.constitution-heading {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.constitution-text h3 {
+    margin-bottom: 8px;
+    font-size: 15px;
+}
+
+.constitution-text p {
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+
+.constitution-text {
+    opacity: 71%;
+}
+
+.registration-certificate-box,
+.registration-box {
+    width: 800px;
+    margin: auto;
+    height: auto;
+    padding: 10px;
+    border: 1px solid;
+    border-radius: 15px;
+    margin-top: 30px;
+}
+
+
+.registration-certificate img,
+.registrations img {
+    max-width: 100%;
+}
+
+.registration-certificate {
+    margin: auto;
+    display: block;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}

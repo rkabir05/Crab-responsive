@@ -1,0 +1,28 @@
+@media only screen and (min-width:480px) and (max-width:767px) {
+    .header-main-logo,
+    .header-dropdown,
+    .header-background,
+    .notice-message, 
+    .message-part,
+    .notice-main,
+    .message-box,
+    .notice-headline-date,
+    .footer-background {
+        width: 100%;
+    }
+
+    .notice-message,
+    .header-dropdown>nav>ul,
+    .header-main {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .notice-message {
+        align-items: center;
+    }
+
+    .message-box {
+        margin-top: 20px;
+    }
+}
