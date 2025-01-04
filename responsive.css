@@ -7,6 +7,7 @@
     .header-main-logo,
     .header-dropdown,
     .message-box,
+    .crab-three-box,
     .notice-headline-date,
     .news-and-events-main,
     .footer-background,
@@ -37,13 +38,27 @@
     .news-text,
     .notice-message,
     .header-dropdown>nav>ul,
+    .crab-three-box,
     .header-main {
         flex-direction: column;
         justify-content: center;
     }
 
+    .crab-main h2 {
+        text-align: center;
+    }
+
+    .crab-three-box,
     .notice-message {
         align-items: center;
+    }
+
+    .footer-address h3 {
+        text-align: center !important;
+    }
+
+    .footer-address p {
+        text-align: center;
     }
 
     .footer>nav>ul,
