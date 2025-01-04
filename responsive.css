@@ -1,16 +1,40 @@
 @media only screen and (min-width:480px) and (max-width:767px) {
-    .header-main-logo,
-    .header-dropdown,
-    .header-background,
+    .header-main,
     .notice-message, 
     .message-part,
     .notice-main,
+    .footer-main,
+    .header-main-logo,
+    .header-dropdown,
     .message-box,
     .notice-headline-date,
-    .footer-background {
+    .news-and-events-main,
+    .footer-background,
+    .footer-2nd-box,
+    .footer-socialmedia, 
+    .glance-text,
+    .design,
+    .footer-2nd-box,
+    .media-and-institute-box {
         width: 100%;
     }
 
+
+    notice-headline-date h2 {
+        font-size: 15px;
+    }
+    
+    notice-headline-date p {
+        font-size: 14px;
+    }
+
+
+    .img {
+        width: 100%;
+        display: block;
+    }
+
+    .news-text,
     .notice-message,
     .header-dropdown>nav>ul,
     .header-main {
@@ -22,7 +46,56 @@
         align-items: center;
     }
 
+    .footer>nav>ul,
+    .design,
+    .footer-2nd-box,
     .message-box {
         margin-top: 20px;
     }
+
+
+    .news-and-events-main {
+        margin-top: 25px;
+    }
+
+    .message-secratery img, 
+    .message-persident img {
+        max-width: 75%;
+    }
+
+    .message-secratery a,
+    .message-persident a {
+        text-align: left;
+    }
+    .header-dropdown>nav>ul {
+        align-items: center !important;
+    }
+
+    .news-part {
+        width: 100%;
+    }
+
+    .news-text p,
+    .news-text h2 {
+        text-align: center;
+    }
+
+    .news-text p {
+        margin-bottom: 20px;
+    }
+
+    ..footer-main,
+    .crab-three-box {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-main>nav>ul>li,
+    .footer-main {
+        flex-direction: column;
+        align-items: center;
+
+    }
 }
+
